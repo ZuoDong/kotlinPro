@@ -12,6 +12,11 @@ fun main(args:Array<String>){
         println(args[i])
     }
 
+    val col:Collection<Int> = ArrayList()
+    col.any{
+        it % 2 == 0
+    }
+
     /**
      * 解构声明
      * destructuring declarations

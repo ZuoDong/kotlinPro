@@ -18,10 +18,12 @@ fun main(args: Array<String>) {
 //        println("helloWorld!")
 //    }
 
-//    println(factoria(5))
+    println(factoria(5))
     val result = Result()
     factoria2(10000,result)
     println(result.value)
+
+
 }
 
 //递归运算阶乘
